@@ -1,31 +1,35 @@
-#body{
-    background-color: maroon;
-    color: #FFF;
-    font-size: 16px;
-    
-}
 #header-nav{
     background-color: gray;
-    border-radius: 0;
-    border: 3px solid ;
+    margin-bottom: 20px;
+    border: 3px solid;
 }
-h1{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
+.icon-bar{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }
-h2{
-    text-align: center;
-
-}
-section{
+.sec{
     background-color: gray;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 20px;
     margin: 20px;
 }
-
+h2,h1{
+    text-align: center;
+}
+h1{
+    left: 0;
+}
+button{
+    visibility: hidden;
+    border: 3px solid;
+}
+button:hover{
+    border-color: gray;
+}
 @media (max-width:767px){
-    
+  button{
+    visibility: visible;
+}  
     
 }
